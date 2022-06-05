@@ -33,6 +33,6 @@ def menu():
     if symmetric_difference(result,dfa)==None:
         print('The machine found and learn the next regular lenguajes ',result.__dict__,symmetric_difference(result,dfa))
         print('Thanks')
+        menu()
         return ''
-    eenu()
 menu()
